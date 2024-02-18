@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontello.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Онлайн-галерея — Pixel Art Gallery</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <section class="navbarmenu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <div style="display: flex;">
+                            <h5 class="navbar-brand" >Pixel Art Gallery</h5>
+                            <img src="img/icons/icon1.png"  class="rounded" style="width: 25px; height: 25px; margin-left: -10px; margin-top: 5px;">
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Профіль
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="signup.html">Зареєструватись</a></li>
+                                        <li><a class="dropdown-item" href="signin.html">Увійти</a></li>
+                                        <li><hr class="dropdown-divider">
+                                            <a class="dropdown-item" href="profile.html">Користувач</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html">Про сайт</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    
+        <header>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white">Мій профіль</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main class="main">
+            <section class="profile">
+                <div class="container">
+                    <div style="display: flex; justify-content: center;">
+                        <form class="row g-3">
+                            <div class="col-12">
+                                <label for="inputUsername4" class="form-label">Ім'я</label>
+                                <div class="input-group">
+                                    <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" value="Данило Кухта">
+                                  </div>
+                            </div>
+                            <div class="col-12">
+                              <label for="inputEmail4" class="form-label">Адреса електронної пошти</label>
+                              <input type="email" class="form-control" id="inputEmail4" value="example@example.com">
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <label for="inputState" class="form-label">Країна</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Україна</option>
+                                <option>США</option>
+                                <option>Китай</option>
+                                <option>Індія</option>
+                                <option>Японія</option>
+                                <option>Німеччина</option>
+                                <option>Велика Британія</option>
+                                <option>Франція</option>
+                                <option>Італія</option>
+                                <option>Бразилія</option>
+                                <option>Канада</option>
+                                <option>Австралія</option>
+                                <option>Росія</option>
+                                <option>Індонезія</option>
+                                <option>Мексика</option>
+                                <option>Саудівська Аравія</option>
+                                <option>Туреччина</option>
+                                <option>Аргентина</option>
+                                <option>Пакистан</option>
+                                <option>Нігерія</option>
+                                <option>Південна Корея</option>
+                                <option>Іран</option>
+                                <option>Польща</option>
+                                <option>Іспанія</option>
+                                <option>Египет</option>
+                                <option>Колумбія</option>
+                                <option>Малайзія</option>
+                                <option>Ірак</option>
+                                <option>Чилі</option>
+                                <option>Бангладеш</option>
+                              </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Місто</label>
+                                <input type="text" class="form-control" id="inputCity" value="Київ">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputState" class="form-label">Стать</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Чоловік</option>
+                                  <option>Жінка</option>
+                                </select>
+                              </div>
+                            <div class="col-12">
+                                <label for="inputCity" class="form-label">Про мене</label>
+                                <input type="text" class="form-control" id="inputAbout" value="Інформація про мене">
+                            </div>
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-itd">Зберегти зміни</button>
+                            </div>
+                          </form>
+                    </div>
+                    
+                </div>
+             </section>   
+        </main>
+       
+ 
+        <footer class="footer">
+            <h4 class="text-center text-white">
+                <p>Лаб1 КВ-11 Кухта Данило</p>
+                <p>© 2024 Pixel Art Gallery</p>
+            </h4>   
+        </footer>
+    </div>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
