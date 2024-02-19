@@ -1,0 +1,99 @@
+:root{
+    --color1: #e0690e;
+    --color2: #6f0dd1;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to right,  #f2dfcd 0%,#f2cdf7 100%);
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+header, footer, section{
+    padding: 100px 0;
+}
+
+footer{
+    padding: 50px 0;
+}
+
+header{
+    padding: 200px, 0;
+}
+
+header, footer{
+    background: url(../img/pattern2.png), var(--color1);
+    background: url(../img/pattern2.png), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+.btn-itd{
+    font-size: 25px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+}
+
+.btn-itd:hover{
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+
+.collapse{
+    font-size: 20px;
+}
+
+.card{
+    background: linear-gradient(to right,  #f2d2b5 0%,#f7beff 100%);
+    margin-bottom: 15px;
+    
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.navbarmenu{
+    padding: 20px 0;
+}
+
+.dropdown-menu{
+    background: linear-gradient(to right,  #f2d2b5 0%,#f7beff 100%);
+}
+
+
+/* Галерея */
+.gallery{
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Колір */
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1 {
+    background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}
