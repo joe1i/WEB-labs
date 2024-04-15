@@ -14,7 +14,7 @@ export default class ArtsInfo_Controller {
     {
         try {
             this.model.buyArtwork();
-             window.location = '/WEB-labs/art_info.html';
+             window.location = '/WEB-labs/index.html';
             new Message_View().showSuccessMessage('Покупку виконано успішно!');
         } catch (error) {
             new Message_View().showErrorMessage(error.message);
