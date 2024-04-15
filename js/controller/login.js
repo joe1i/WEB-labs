@@ -18,7 +18,7 @@ export default class Login_Controller {
             this.model.setData(email, password, remember);
             this.model.validate();
 
-            window.location = '/WEB-labs/index.html'
+            window.location = '/WEB-labs/index.html';
             
             new Message_View().showSuccessMessage('Вхід виконано успішно!');
         } catch (error) {
