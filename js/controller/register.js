@@ -17,7 +17,7 @@ export default class Register_Controller {
             this.model.setPassword(password);
             this.model.validate();
             this.model.saveData();
-            window.location = '/index.html';
+            window.location = '/WEB-labs/index.html';
             new Message_View().showSuccessMessage('Користувача успішно зареєстровано!'); 
         } catch (error) {
             new Message_View().showErrorMessage(error.message);
