@@ -71,21 +71,21 @@
                                 <label for="inputUsername4" class="form-label">Ім'я користувача</label>
                                 <div class="input-group">
                                     <div class="input-group-text">@</div>
-                                    <input type="text" class="form-control" id="inlineFormInputGroupUsername">
+                                    <input type="text" class="form-control" id="nameReg">
                                   </div>
                             </div>
                             <div class="col-md-6">
                               <label for="inputEmail4" class="form-label">Адреса електронної пошти</label>
-                              <input type="email" class="form-control" id="inputEmail4">
+                              <input type="emailReg" class="form-control" id="emailReg">
                             </div>
                             <div class="col-md-6">
                               <label for="inputPassword4" class="form-label">Пароль</label>
-                              <input type="password" class="form-control" id="inputPassword4">
+                              <input type="passwordReg" class="form-control" id="passwordReg">
                             </div>
                             
                             <div class="col-md-6">
                               <label for="inputState" class="form-label">Країна</label>
-                              <select id="inputState" class="form-select">
+                              <select id="countryReg" class="form-select">
                                 <option selected>Україна</option>
                                 <option>США</option>
                                 <option>Китай</option>
@@ -120,38 +120,40 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="inputCity" class="form-label">Місто</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <input type="text" class="form-control" id="cityReg">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputState" class="form-label">Стать</label>
-                                <select id="inputState" class="form-select">
+                                <select id="sexReg" class="form-select">
                                   <option>Чоловік</option>
                                   <option>Жінка</option>
                                 </select>
                               </div>
                             <div class="col-12">
                                 <label for="inputCity" class="form-label">Про мене</label>
-                                <input type="text" class="form-control" id="inputAbout">
+                                <input type="text" class="form-control" id="aboutReg">
                             </div>
                             <div class="col-12">
-                              <button type="submit" class="btn btn-itd">Зареєструватись</button>
+                              <button class="btn btn-itd" id="registerReg">Зареєструватись</button>
                             </div>
                           </form>
                     </div>
                     
                 </div>
              </section>   
+
+             
         </main>
 
         <footer class="footer">
             <h4 class="text-center text-white">
-                <p>Лаб1 КВ-11 Кухта Данило</p>
+                <p>Лаб2 КВ-11 Кухта Данило</p>
                 <p>© 2024 Pixel Art Gallery</p>
             </h4>   
         </footer>
     </div>
 
-    
+    <script type="module" src="js/main_register.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

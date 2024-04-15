@@ -68,18 +68,19 @@
                         <form>
                             <div class="mb-3">
                               <label for="exampleInputEmail1" class="form-label">Адреса електронної пошти</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <input class="form-control" id="emailLog" aria-describedby="emailHelp">
                               <div id="emailHelp" class="form-text">Ми ніколи нікому не передамо вашу електронну адресу.</div>
                             </div>
                             <div class="mb-3">
                               <label for="exampleInputPassword1" class="form-label">Пароль</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              <input class="form-control" id="passwordLog">
                             </div>
                             <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Запам'ятати мене</label>
+                              
+                              <label class="form-check-label" for="exampleCheck1" >Запам'ятати мене</label>
+                              <input type="checkbox" class="form-check-input" id="rememberLog">
                             </div>
-                            <button type="submit" class="btn btn-itd">Увійти</button>
+                            <button class="btn btn-itd" id="loginLog">Увійти</button>
                         </form>
                     </div>
                     
@@ -89,7 +90,7 @@
        
         <footer class="footer">
             <h4 class="text-center text-white">
-                <p>Лаб1 КВ-11 Кухта Данило</p>
+                <p>Лаб2 КВ-11 Кухта Данило</p>
                 <p>© 2024 Pixel Art Gallery</p>
             </h4>   
         </footer>
@@ -98,7 +99,7 @@
 
     
 
-
+    <script type="module" src="js/main_login.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
