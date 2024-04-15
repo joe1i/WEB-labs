@@ -22,6 +22,6 @@ export default class ArtsList_Model {
 
     addToLocalStorage(artwork) {
         localStorage.setItem('selectedArt', JSON.stringify(artwork));        
-        window.location.href = '../art_info.html';
+        window.location = '/art_info.html';
     }
 }
